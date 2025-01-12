@@ -134,3 +134,31 @@ nav > button {
   font-size: 16px;
   font-weight: 600;
 }
+
+/* Vision Quote */
+.quote-sec {
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background-color: white;
+  padding: 48px 24px;
+  margin-top: 32px;
+  background-image: url("assets/quote-bg.png");
+  background-repeat: no-repeat;
+  background-position: 2% 14%;
+}
+.quote-sec h {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 600;
+}
+.quote {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+.ca-title {
+  color: rgba(14, 14, 14, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+}
