@@ -4,39 +4,41 @@
   margin: 0;
   padding: 0;
 }
+body {
+  font-family: Fira Sans;
+}
 
 /* common styles */
 .bg-green {
   background-color: rgb(0, 106, 80);
 }
+.border-radius-8px {
+  border-radius: 8px;
+}
 
-/* Upper Section */
-.top-sec {
+/* Navigation Bar */
+nav {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
 }
 
-.top-sec > h1 {
+nav > h1 {
   margin: 31px 0 31px 160px;
-  font-family: Fira Sans;
   color: rgb(14, 14, 14);
 }
-.top-sec > button {
+nav > button {
   margin: 24px 160px 24px 0;
   padding: 15px 30px;
   border: 1px solid rgb(0, 106, 80);
-  border-radius: 8px;
-  font-family: Fira Sans;
   color: rgb(0, 106, 80);
-  font-family: Fira Sans;
   font-size: 18px;
   font-weight: 600;
   background-color: white;
 }
 
 /* Banner */
-.banner-container {
+.banner {
   border-radius: 24px;
   background-color: rgb(198, 228, 214);
   width: 1280px;
@@ -56,23 +58,79 @@
 }
 .banner-texts p {
   color: rgba(14, 14, 14, 0.5);
-  font-family: Fira Sans;
   font-size: 24px;
   font-weight: 500;
 }
 .banner-texts h1 {
   color: rgb(14, 14, 14);
-  font-family: Fira Sans;
   font-size: 56px;
   font-weight: 700;
 }
 .banner-texts button {
   margin-top: 24px;
-  border-radius: 8px;
   border: none;
   color: white;
   padding: 17px 34px 17px 34px;
-  font-family: Fira Sans;
   font-size: 18px;
+  font-weight: 600;
+}
+
+/* Vision */
+.vision {
+  margin: auto;
+  width: 1280px;
+  height: 765px;
+}
+.vision-texts h1 {
+  color: rgb(14, 14, 14);
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 80px;
+}
+.vision-texts p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  margin: 24px 0 32px 0;
+}
+.vision-cards-container {
+  display: flex;
+  justify-content: space-between;
+}
+.vision-card {
+  width: 410.67px;
+  height: 325px;
+  border-radius: 16px;
+}
+.vision-card-1 {
+  background-color: rgba(84, 144, 245, 0.2);
+}
+.vision-card-2 {
+  background-color: rgb(198, 228, 214);
+}
+.vision-card-3 {
+  background-color: rgb(247, 235, 207);
+}
+.vision-card img {
+  margin: 33px 0 13.34px 45.34px;
+}
+.vision-card h3 {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 32px 12px 32px;
+}
+.vision-card p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0 32px 24px 32px;
+}
+.vision-card button {
+  padding: 10px 18px;
+  border: none;
+  margin-left: 32px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
   font-weight: 600;
 }
