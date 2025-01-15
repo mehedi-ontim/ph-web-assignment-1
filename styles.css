@@ -405,3 +405,14 @@ nav > button {
   font-size: 16px;
   font-weight: 400;
 }
+
+/* Hover */
+.vision-card:hover {
+  background-color: #9df9ef;
+}
+.donate-card:hover {
+  background-color: #ffa8B6;
+}
+button:hover {
+  background-color: #8458B3;
+}
