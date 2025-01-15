@@ -331,3 +331,77 @@ nav > button {
   font-size: 18px;
   font-weight: 600;
 }
+
+/* Newsletter */
+.newsletter-container {
+  width: 1080px;
+  height: 235px;
+  margin: auto;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  background-color: rgb(198, 228, 214);
+  border-radius: 24px;
+  padding: 80px 100px;
+  text-align: center;
+}
+.newsletter-texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.newsletter-texts h1 {
+  color: rgb(14, 14, 14);
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.newsletter-texts p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 24px;
+  width: 622px;
+}
+.newsletter-input-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.newsletter-input-btn input {
+  width: 520px;
+  height: 19px;
+  padding: 18px 40px;
+  border: none;
+  border-radius: 8px 0px 0px 8px;
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+}
+.newsletter-input-btn input::placeholder {
+  color: rgba(14, 14, 14, 0.3);
+  font-size: 16px;
+  font-weight: 400;
+}
+.newsletter-input-btn input:focus {
+  outline: none;
+}
+.newsletter-input-btn button {
+  width: 150px;
+  height: 56px;
+  padding: 17px 34px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 106, 80);
+  font-family: Fira Sans;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 0px 8px 8px 0px;
+}
+.newsletter-container p {
+  margin-top: 25px;
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+}
